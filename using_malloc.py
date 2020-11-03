@@ -92,7 +92,7 @@ if __name__ == "__main__":
     # https://docs.python.org/3.9/library/itertools.html
     # https://docs.python.org/3.9/library/itertools.html#itertools.cycle
     # https://docs.python.org/3.9/library/itertools.html#itertools.islice
-    # cycle generates and infinite generator and islice extracts the
+    # cycle generates an infinite generator and islice extracts the
     # first 1000 events from the infinite generator
     events = islice(cycle(events), 10)
 
